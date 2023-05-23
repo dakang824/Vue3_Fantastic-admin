@@ -1,0 +1,23 @@
+{
+    "app": {
+        "account": "用户名",
+        "captcha": "验证码",
+        "check": "确 认",
+        "goLogin": "去登录",
+        "login": "登 录",
+        "logout": "退出登录",
+        "newPassword": "新密码",
+        "password": "密码",
+        "profile": "个人设置",
+        "sendCaptcha": "发送验证码"
+    },
+    "route": {
+        "dashboard": "控制台",
+        "i18n": "国际化",
+        "login": "登录",
+        "personal": {
+            "editpassword": "修改密码",
+            "setting": "个人设置"
+        }
+    }
+}

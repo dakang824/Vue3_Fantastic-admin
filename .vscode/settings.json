@@ -1,0 +1,17 @@
+{
+    "i18n-ally.localesPaths": [
+        "src/locales",
+        "public/tinymce/langs",
+        "src/locales/lang"
+    ]
+} // {
+//     "editor.fontLigatures": false,
+//     // 重新设定tabsize
+//     "editor.tabSize": 2,
+//     "editor.formatOnSave": true,
+//     "editor.codeActionsOnSave": {
+//         "source.fixAll.eslint": true
+//     },
+//     "javascript.format.enable": false,
+//     "git.confirmSync": true, // *** 这个是提示空格的点点
+// }

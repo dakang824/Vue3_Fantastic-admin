@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <html>
+        <div class="title" style="color: aqua">123</div>
+    </html>
+    <body>
+        <script>
+            // 求1-100的偶数和
+            // let num = 1;
+            // let sum = 0;
+            // while (num <= 100) {
+            //   if (num % 2 == 0) {
+            //     sum += num;
+            //   }
+            //   num++;
+            // }
+            // console.log(sum, '1-100的偶数和1');
+
+            // let num = 1;
+            // let sum = 0;
+            // do {
+            //     if (num % 2 == 0) {
+            //         sum += num;
+            //     }
+            //     num++;
+            // } while (num <= 100);
+            // console.log(sum, "1-100的偶数和1");
+
+            // let flag = confirm("真的想去大厂");
+            // while (!flag) { //代替flag == false
+            //     flag = confirm("真的想去大厂");
+            // }
+
+            // let sum = 0
+            // for(let i = 1; i <= 100; i++){
+            //     if(i % 2 ==0){
+            //         sum += i
+            //     }
+            // }
+            // console.log(sum, "1-100的偶数和1");
+            // let num1 = 1
+            // let num2= 2
+            // const sum = function(a, b){
+            //     return a + b
+            // }
+            // let res = sum(num1, num2)
+            // console.log(res);
+            // console.time();
+
+            // let arr = [1, 2, 3];
+            // console.table(arr);
+            // let obj = {
+            //     name: "zs",
+            //     age: 12,
+            // };
+            // console.table(obj);
+
+            // console.timeEnd();
+
+            // 求1-20 不能被7整除的数的和
+            // let sum = 0
+            // for(let i = 0; i <= 10; i++){
+            //     if(i % 7 ==0){
+            //         continue
+            //     }
+            //     sum += i
+            // }
+            // console.log(sum, 'sum');
+            // 求 200 -300所有奇数的和
+            // let sum = 0
+            // for(let i = 200; i <= 300; i++){
+            //     if(i % 2 == 0){
+            //         continue
+            //     }
+            //     sum += i
+            // }
+            // console.log(sum, 'sum');
+            //求200-300间前3个能被7整除的数
+            // let counter = 0;
+            // for (let i = 200; i <= 300; i++) {
+            //     if (i % 7 == 0) {
+            //         console.log(i);
+            //         counter++;
+            //         if (counter == 3) {
+            //             break;
+            //         }
+            //     }
+            // }
+
+            // outer: for (let i = 0; i < 3; i++) {
+            //     for (let j = 0; j < 3; j++) {
+            //         let input = prompt(`Value at coords (${i},${j})`, "");
+
+            //         // 如果是空字符串或被取消，则中断并跳出这两个循环。
+            //         if (!input) break outer; // (*)
+
+            //         // 用得到的值做些事……
+            //     }
+            // }
+            // alert("Done!");
+            // continue 和 break 的标签属性
+            // let num = 0;
+            // counter: for (let i = 0; i < 10; i++) {
+            //     for (let j = 0; j < 10; j++) {
+            //         if (i == 2 && j == 2) {
+            //             break counter;
+            //         }
+            //         num++;
+            //     }
+            // }
+            // console.log(num);
+            // with 语句
+            // var foo = 1;
+            // var bar = {
+            //     foo: 2,
+            // };
+            // with (bar) {
+            //     console.log(foo);
+            //     foo = 3;
+            //     console.log(foo);
+            // }
+            // console.log(foo);
+            // console.log(bar.foo);
+            // switch语句
+            // let num = 0;
+            // switch (true) {
+            //     case num < 10:
+            //         console.log("数字小于10");
+            //         break;
+            //     case num < 60:
+            //         console.log("数字小于60");
+            //     case num < 70:
+            //         console.log("数字小于70");
+            //         break;
+            //     default:
+            //         console.log("数字默认范围大于70");
+            // }
+            // let num = 20;
+            // switch (true) {
+            //     case num==10://true == (num == 10)
+            //         console.log("值为10");
+            //         break;
+            //     case num==20:
+            //         console.log("值为20");
+            //         break;
+            //     default:
+            //         num;
+            //         console.log("值为其他");
+            // }
+            // // 结果与下面的等效
+            // switch (num) {
+            //     case 10://num == 10
+            //         console.log("值为10");
+            //         break;
+            //     case 20:
+            //         console.log("值为20");
+            //         break;
+            //     default:
+            //         console.log("值为其他");
+            // }
+        </script>
+    </body>
+</html>
